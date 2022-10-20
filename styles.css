@@ -74,8 +74,41 @@ button {
 }
 
 .hero-image {
-    min-height: 200px;
-    max-height: 200px;
-    min-width: 400px;
-    max-width: 400px;
+    height: 200px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 48px;
+}
+
+.information {
+    text-align: center;
+    padding-top: 48px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 96px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    outline-style: solid;
+    outline-color: #3882f6;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.info {
+    max-width: 150px;
 }
