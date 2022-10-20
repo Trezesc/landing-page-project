@@ -112,3 +112,25 @@ button {
 .info {
     max-width: 150px;
 }
+
+.quote-section {
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 96px;
+    padding-bottom: 80px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #445061;
+}
+
+.quote-tag {
+    text-align: right;
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: 700;
+}
