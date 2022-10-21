@@ -55,6 +55,8 @@ a {
 
 button {
     width: 100px;
+    height: 35px;
+    white-space: nowrap;
 }
 
 .hero-text {
@@ -133,4 +135,38 @@ button {
     font-size: 20px;
     color: #1f2937;
     font-weight: 700;
+}
+
+.action-call {
+    display: flex;
+    background-color: #3882f6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    padding: 40px 100px;
+    color: #f9faf8;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 150px;
+    align-items: center;
+}
+
+.action-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 6px 20px;
+    border-style: solid;
+    border-radius: 8px;
+    font-weight: 600;
+    border-color: #f9faf8;
+}
+
+.action-header {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action-text {
+    font-size: 20px;
 }
